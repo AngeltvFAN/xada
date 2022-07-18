@@ -471,6 +471,9 @@ minimize.BackgroundTransparency = 1.000
 minimize.Position = UDim2.new(0.896000028, 0, 0.199999839, 0)
 minimize.Size = UDim2.new(0, 15, 0, 15)
 minimize.Image = "rbxassetid://7072719338"
+minimize.MouseButton1Click:Connect(function()
+	container.Visible = not container.Visible
+end)
 
 logo.Name = "logo"
 logo.Parent = TopBar
